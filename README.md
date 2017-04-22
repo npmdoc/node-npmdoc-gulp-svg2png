@@ -1,9 +1,14 @@
-# api documentation for  [gulp-svg2png (v2.0.2)](https://github.com/akoenig/gulp-svg2png)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-svg2png.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-svg2png) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-svg2png.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-svg2png)
+# npmdoc-gulp-svg2png
+
+#### api documentation for  [gulp-svg2png (v2.0.2)](https://github.com/akoenig/gulp-svg2png)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-svg2png.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-svg2png) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-svg2png.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-svg2png)
+
 #### A gulp plugin for converting SVGs to PNGs.
 
-[![NPM](https://nodei.co/npm/gulp-svg2png.png?downloads=true)](https://www.npmjs.com/package/gulp-svg2png)
+[![NPM](https://nodei.co/npm/gulp-svg2png.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-svg2png)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-svg2png/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-gulp-svg2png_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-svg2png/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-gulp-svg2png/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-gulp-svg2png/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-svg2png/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-svg2png/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-gulp-svg2png/build/screenCapture.npmPackageListing.svg)
 
@@ -17,8 +22,7 @@
 
 {
     "author": {
-        "name": "André König",
-        "email": "andre.koenig@posteo.de"
+        "name": "André König"
     },
     "bugs": {
         "url": "https://github.com/akoenig/gulp-svg2png/issues"
@@ -58,13 +62,11 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "akoenig",
-            "email": "akoenig@posteo.de"
+            "name": "akoenig"
         }
     ],
     "name": "gulp-svg2png",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+ssh://git@github.com/akoenig/gulp-svg2png.git"
@@ -76,38 +78,9 @@
         "test": "npm run build && npm run mocha",
         "typings": "typings install -SA"
     },
-    "version": "2.0.2"
+    "version": "2.0.2",
+    "bin": {}
 }
-```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module gulp-svg2png](#apidoc.module.gulp-svg2png)
-1.  object <span class="apidocSignatureSpan">gulp-svg2png.</span>SVG
-
-#### [module gulp-svg2png.SVG](#apidoc.module.gulp-svg2png.SVG)
-1.  boolean <span class="apidocSignatureSpan">gulp-svg2png.SVG.</span>__esModule
-1.  [function <span class="apidocSignatureSpan">gulp-svg2png.SVG.</span>default ()](#apidoc.element.gulp-svg2png.SVG.default)
-
-
-
-# <a name="apidoc.module.gulp-svg2png"></a>[module gulp-svg2png](#apidoc.module.gulp-svg2png)
-
-
-
-# <a name="apidoc.module.gulp-svg2png.SVG"></a>[module gulp-svg2png.SVG](#apidoc.module.gulp-svg2png.SVG)
-
-#### <a name="apidoc.element.gulp-svg2png.SVG.default"></a>[function <span class="apidocSignatureSpan">gulp-svg2png.SVG.</span>default ()](#apidoc.element.gulp-svg2png.SVG.default)
-- description and source-code
-```javascript
-function SVG() {
-}
-```
-- example usage
-```shell
-n/a
 ```
 
 
